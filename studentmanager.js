@@ -30,10 +30,12 @@ function processStudents(students) {
 }
 
 const studentsArray = [
+    new Student("Harry", 95),
     new Student("Jeremy", 75),
     new Student("Hannah", 90),
     new Student("Kelly", 82),
     new Student("Oliver", 86),
+    new Student("David", 67),
     new Student("Lia", 50)
 ]
 console.log(processStudents(studentsArray))
